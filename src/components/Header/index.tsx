@@ -11,7 +11,7 @@ const Header = (): JSX.Element => {
         alt="logotuPrutec"
         />
         <div className={styles.content__header_divS}>
-        <h2>Nombre de usuario</h2>
+        <h2>Nombre de Usuario</h2>
         <button className={styles.content_header_button}>
           <img src={arrowicon} alt="iconsvgarrow" />
           </button>

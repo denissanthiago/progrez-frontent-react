@@ -17,6 +17,7 @@ const Footer = (): JSX.Element => {
       <img 
       src={logofooter} 
       alt="isotipo" 
+      
       />
       </div>
     </footer>
