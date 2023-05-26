@@ -1,0 +1,10 @@
+.content_nav {
+    grid-area: nav;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    background-color:#4942E4;
+    padding:  20px 40px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
