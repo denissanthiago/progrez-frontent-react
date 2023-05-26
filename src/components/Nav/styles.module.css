@@ -2,9 +2,9 @@
     grid-area: nav;
     grid-column: 1/6;
     grid-row: 2/3;
-    background-color:#4942E4;
+    background-color:#f5f5fa;
     padding:  20px 40px;
-    color: aliceblue;
+    color: rgb(15, 17, 19);
     display: flex;
     flex-direction: row;
 }

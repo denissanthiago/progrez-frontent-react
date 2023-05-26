@@ -6,4 +6,6 @@
     min-height: calc(100vh - 184px);
     padding:  20px 40px;
     color: black;
+    background-image: url(../../assets/bg-content.jpg);
+    background-repeat: repeat;
 }
