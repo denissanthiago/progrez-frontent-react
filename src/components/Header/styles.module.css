@@ -2,7 +2,10 @@
     grid-area: header;
     grid-column: 1/6;
     grid-row: 1/2;
-    background-color: #11009E;
+    background-color: #0247a2;
     padding:  20px 40px;
     color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
 }

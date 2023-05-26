@@ -1,8 +1,27 @@
 .content_footer {
     grid-area: footer;
-    background-color: #19146f;
+    background-color: #0247a2;
     grid-column: 1/6;
-    /* min-height: 58px; */
+    min-height: 58px;
     padding:  20px 40px;
     color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content_footer_div  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px
+   
+    
+}
+.content_footer_p{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    margin-left: 8px
 }
