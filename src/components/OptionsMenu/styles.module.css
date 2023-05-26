@@ -1,0 +1,6 @@
+.content__menu_items {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.content__display_menu {
+	position: absolute;
+	top: 28px;
+    left: 108px;
+	transform: translateX(-75%);
+	padding: 0.5rem;
+    color: black;
+    background-color: #cbd2ff;
+    min-width: 130px;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content__option_menu {
+	position: relative;
+}
+.option_menu {
+    padding: 4px;
+    border-radius: 4px;
+}
+.option_menu:hover {
+	background-color: #11009E;
+    color: aliceblue;
+}
+
+.text_option {
+    padding-bottom: 3px;
+}
+
+.text_option__selected {
+    padding-bottom: 3px;
+    border-bottom: 2px solid #11009E;
+}

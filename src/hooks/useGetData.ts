@@ -1,11 +1,15 @@
 import React from "react";
+import { IOptionsItem } from "../domain/option";
 
 const BASE_URL = import.meta.env.VITE_API_URL
 
+interface IUseGetData {
+    data: IOptionsItem
+}
 
-const useGetData = () => {
+const useGetData = (): IUseGetData => {
 
-    const [data, setData] = React.useState({})
+    const [data, setData] = React.useState<IOptionsItem>()
 
 
     React.useEffect(() => {
@@ -16,14 +20,14 @@ const useGetData = () => {
         try {
             const response = await fetch(`${BASE_URL}/list`);
             const jsonData = await response.json();
-            setData(jsonData);
+            setData(jsonData[0]);
         } catch (error) {
             console.error(error);
         }
     }
 
     return {
-        data  
+        data: data as IOptionsItem
     }
 }
 
