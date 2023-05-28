@@ -8,7 +8,6 @@ const Footer = (): JSX.Element => {
       <img 
       src={logofooter} 
       alt="isotipo" 
-
       />
       <div className={styles.content_footer_p}>
       <p>© 2023 Progrez All rights reserved</p>
@@ -16,7 +15,6 @@ const Footer = (): JSX.Element => {
       <img 
       src={logofooter} 
       alt="isotipo" 
-      
       />
       </div>
     </footer>
