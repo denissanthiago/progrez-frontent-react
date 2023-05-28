@@ -1,0 +1,48 @@
+{
+  "list": [
+    {
+      "card_list": {
+        "name": "List de Tarjetas",
+        "child": []
+      },
+      "pays_transfer": {
+        "name": "Transferencia y pagos",
+        "child": [
+          {
+            "between_cards": {
+              "name": "Entre tarjetas",
+              "child": []
+            },
+            "banks": {
+              "name": "Bancos",
+              "child": []
+            },
+            "credit_card": {
+              "name": "tarjeta de credito",
+              "child": []
+            }
+          }
+        ]
+      },
+      "support": {
+        "name": "Atención al cliente",
+        "child": [
+          {
+            "lock": {
+              "name": "cerrado",
+              "child": []
+            },
+            "change_pass": {
+              "name": "Cambiar el pase",
+              "child": []
+            }
+          }
+        ]
+      },
+      "enterprises": {
+        "name": "Empresa",
+        "child": []
+      }
+    }
+  ]
+}

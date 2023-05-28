@@ -1,0 +1,11 @@
+.content__main_section {
+    grid-area: main;
+    grid-column: 1/6;
+    grid-row: 3/4;
+    height: auto;
+    min-height: calc(100vh - 184px);
+    padding:  20px 40px;
+    color: black;
+    background-image: url(../../assets/bg-content.jpg);
+    background-repeat: repeat;
+}
